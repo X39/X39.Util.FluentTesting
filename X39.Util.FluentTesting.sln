@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{504E15BE-59A8-4253-B46B-BF9A909A1E0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X39.Util.FluentTesting.Tests", "tests\X39.Util.FluentTesting.Tests\X39.Util.FluentTesting.Tests.csproj", "{D2167721-E756-432B-AE5D-258BB5FA716B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sources", "sources", "{5505202A-CA41-4EF6-B0C3-4BE0C7423EAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X39.Util.FluentTesting", "sources\X39.Util.FluentTesting\X39.Util.FluentTesting.csproj", "{5E3ECFA2-D843-4B19-B9B3-B43E27C3113D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{A15F0593-CC89-4210-B977-402917CD3A41}"
+	ProjectSection(SolutionItems) = preProject
+		CONTRIBUTORS.md = CONTRIBUTORS.md
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2167721-E756-432B-AE5D-258BB5FA716B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2167721-E756-432B-AE5D-258BB5FA716B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2167721-E756-432B-AE5D-258BB5FA716B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2167721-E756-432B-AE5D-258BB5FA716B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3ECFA2-D843-4B19-B9B3-B43E27C3113D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3ECFA2-D843-4B19-B9B3-B43E27C3113D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3ECFA2-D843-4B19-B9B3-B43E27C3113D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3ECFA2-D843-4B19-B9B3-B43E27C3113D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2167721-E756-432B-AE5D-258BB5FA716B} = {504E15BE-59A8-4253-B46B-BF9A909A1E0B}
+		{5E3ECFA2-D843-4B19-B9B3-B43E27C3113D} = {5505202A-CA41-4EF6-B0C3-4BE0C7423EAB}
+	EndGlobalSection
+EndGlobal
